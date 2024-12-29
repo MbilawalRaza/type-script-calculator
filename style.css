@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
+    background-color: #c2c2c2;
+}
+
+.container {
+    background-color: #000000;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(255, 177, 177, 0.1);
+    padding: 20px;
+    width: 200px;
+    width: 100%;
+    height: auto;
+    
+}
+
+.heading{
+    text-align: center;
+    font-size: auto;
+    margin-bottom: 20px;
+    width: 200px;
+    font-weight: bold;
+    color: rgb(63, 72, 78);
+    border-bottom: 5px solid rgb(0, 0, 0);
+}
+.deletebtns{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+  
+    border: 2px solid gray;
+}
+
+input {
+    align-items: center;
+    width: 99% ;
+    padding: 0px;
+    font-size: 18px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    height: 80px;
+    background-color: rgb(255, 255, 255); 
+    border-radius: 7px  ;
+    color: rgb(0, 0, 0); 
+}
+
+button {
+    width: 70px;
+    height: 70px;
+    /* font-size: 40px;
+    cursor: pointer;
+    border: 2px soid black;
+    color: white;
+    background-color: rgb(107, 136, 132);
+    border-radius: 2px; */
+}
+ .btn1{
+    background-color: rgb(107, 136, 132);
+height: auto;
+width: 31%;
+
+}
+.btn2{
+    background-color: rgb(107, 136, 132);
+    height: auto;
+    width: 31%;
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+.btn-standart{
+    color: white;
+   
+    
+    padding: 0.5em 1em;
+    font-size: 16px;
+    font-weight: 600;
+    
+   
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn-standart:active{
+    box-shadow: none;
+    
+    margin-bottom: o;
+  }
+  .blau:hover{
+    background-color:#4bc7e8;
+  }
+  .blau {
+    background-color: rgb(107, 136, 132);
+  }
+  
+  
+  
